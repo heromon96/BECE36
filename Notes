@@ -29,13 +29,37 @@ To Access properties of a class in different package we have 2 ways
                         syntax : packagename.classname
   
   
+ Access Specifiers
+ 
+ - Access specifiers are used to provide security for the classes and its members
+   by controlling the visibility.
+ 
+   * Public
+   - if you declare any entity as public , then it can be accessed from any
+     classes present in any package.
+   - Public entities will have highest visibility and lowest security.
+  
+   * Protected
+   - if you declare any entity as protected , then it can be accessed only from 
+     classes present in same package.
+     
+   - Protected entities of a class can be accessed by other classes present in
+     different package by Inheritance and creating the object of Subclass.
   
   
+   * Pkg-level (default)
+   - If you declare any entity without using any access specifier keywords
+     then that entity is called as pkg-level member or default member.
+     
+   - if you declare any entity as pkg-level , then it can be accessed STRICTLY
+     by the classes present in SAME PACKAGE ONLY.
   
-  
-  
-  
-  
+   * Private 
+   
+   - if you declare any entity as private , then it can be accessed ONLY
+     within the class in which they are declared.
+     
+   - Private entities will have highest security and lowest visibility.
   
   
   
