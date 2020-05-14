@@ -62,6 +62,36 @@ To Access properties of a class in different package we have 2 ways
    - Private entities will have highest security and lowest visibility.
   
   
+   Encapsulation
+  
+   - Providing security for data members by Declaring them as private 
+     and grant the access through getter and setter methods is called 
+     Encapsulation.
+     
+   - Getter methods returns current value of the private data member.
+   
+   - Return type of the getter method depends on data type of private data member.
+   
+   - Setter methods updates value of the private data member.
+   
+   - Return type of the setter method will be usally declared as void.
+     But it can be changed according application requirement.
+     
+   - Encapsulation is used to protect the data members of the class against
+     the invalid value.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
   
